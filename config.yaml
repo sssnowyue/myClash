@@ -1,7 +1,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://xxxx.ini"
+    url: "https://xxxxx.ini"
     type: http
     interval: 86400
     health-check:
@@ -89,6 +89,7 @@ dns:
 
 proxy-groups:
   - {name: ✈️ Airlines, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
+  - {name: 🍎 AppleIntelligence, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🚀 Oversea, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 📹 YouTube, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🍀 Google, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
@@ -127,8 +128,9 @@ proxy-groups:
 # 规则匹配
 rules:
   - RULE-SET,private_domain,🎯Direct
-  - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,airlines,✈️ Airlines
+  - RULE-SET,AppleIntelligence,🍎 AppleIntelligence
+  - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 Oversea
   - RULE-SET,ai,🤖 ChatGPT
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
@@ -158,6 +160,7 @@ rule-anchor:
   class: &class {type: http, interval: 86400, behavior: classical, format: text}
 rule-providers: 
   airlines: { <<: *class, url: "https://raw.githubusercontent.com/sssnowyue/myClash/refs/heads/main/rules/Airlines.list"}
+  AppleIntelligence: { <<: *class, url: "https://raw.githubusercontent.com/sssnowyue/myClash/refs/heads/main/rules/AppleIntelligence.list"}
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"}
   ai: {  <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
