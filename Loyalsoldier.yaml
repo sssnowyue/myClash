@@ -1,0 +1,211 @@
+# =====================================================
+#  Clash 配置（改写自 sssnowyue/myClash.ini）
+#  规则结构基于 Loyalsoldier/clash-rules
+#  https://github.com/Loyalsoldier/clash-rules
+# =====================================================
+
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  enhanced-mode: fake-ip
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://1.1.1.1/dns-query
+
+# ================== 代理组定义 ==================
+proxy-groups:
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 150
+    tolerance: 30
+    include-all: true
+
+  - name: 🚀 手动选择
+    type: select
+    include-all: true
+
+  # 功能性策略组
+  - name: ✈️ Airlines
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+  - name: 🍎 AppleIntelligence
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+  - name: 🎯 国内
+    type: select
+    proxies: [DIRECT, ♻️ 自动选择, 🚀 手动选择]
+
+  - name: 🍎 Apple
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+  - name: 🍎 iCloud
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+  - name: 💬 AI
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+  - name: 👯‍♂️ TikTok
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+  - name: 🎥 Netflix
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+  - name: 📲 Telegram
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+  - name: 🌍 国外
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+  - name: 🛑 广告拦截
+    type: select
+    proxies: [REJECT, DIRECT]
+
+  - name: 🛡️ 隐私防护
+    type: select
+    proxies: [REJECT, DIRECT]
+
+  - name: 🍃 应用净化
+    type: select
+    proxies: [REJECT, DIRECT]
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: [♻️ 自动选择, 🚀 手动选择, DIRECT]
+
+# ================== 规则集定义 ==================
+rule-providers:
+  icloud:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  china:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./ruleset/china.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  adblock:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./ruleset/adblock.yaml
+    interval: 86400
+
+  privacy:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+    path: ./ruleset/privacy.yaml
+    interval: 86400
+
+  programad:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./ruleset/programad.yaml
+    interval: 86400
+
+  airlines:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/sssnowyue/myClash/main/rules/Airlines.list
+    path: ./ruleset/airlines.yaml
+    interval: 86400
+
+  appleintelligence:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/sssnowyue/myClash/main/rules/AppleIntelligence.list
+    path: ./ruleset/appleintelligence.yaml
+    interval: 86400
+
+  ai:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/liandu2024/clash/main/list/AI.list
+    path: ./ruleset/ai.yaml
+    interval: 86400
+
+  ai2:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/liandu2024/clash/main/list/AI2.list
+    path: ./ruleset/ai2.yaml
+    interval: 86400
+
+  tiktok:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list
+    path: ./ruleset/tiktok.yaml
+    interval: 86400
+
+  netflix:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/netflix.yaml
+    interval: 86400
+
+  telegram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./ruleset/telegram.yaml
+    interval: 86400
+
+# ================== 规则应用 ==================
+rules:
+  - RULE-SET,airlines,✈️ Airlines
+  - RULE-SET,appleintelligence,🍎 AppleIntelligence
+  - RULE-SET,icloud,🍎 iCloud
+  - RULE-SET,apple,🍎 Apple
+  - RULE-SET,ai,💬 AI
+  - RULE-SET,ai2,💬 AI
+  - RULE-SET,tiktok,👯‍♂️ TikTok
+  - RULE-SET,netflix,🎥 Netflix
+  - RULE-SET,telegram,📲 Telegram
+  - RULE-SET,proxy,🌍 国外
+  - RULE-SET,adblock,🛑 广告拦截
+  - RULE-SET,privacy,🛡️ 隐私防护
+  - RULE-SET,programad,🍃 应用净化
+  - RULE-SET,china,🎯 国内
+  - GEOIP,CN,DIRECT
+  - MATCH,🐟 漏网之鱼
