@@ -90,19 +90,19 @@ dns:
 proxy-groups:
   - {name: ✈️ Airlines, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🍎 AppleIntelligence, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
+  - {name: 🍎 Apple, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🚀 Oversea, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
-  - {name: 📹 YouTube, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
-  - {name: 🍀 Google, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🤖 ChatGPT, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 👨🏿‍💻 GitHub, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
+  - {name: 📹 YouTube, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
+  - {name: 🍀 Google, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🐬 OneDrive, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🪟 Microsoft, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
+  - {name: ✈️ Speedtest, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🎵 TikTok, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 📲 Telegram, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🎥 NETFLIX, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
-  - {name: ✈️ Speedtest, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 💶 PayPal, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
-  - {name: 🍎 Apple, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🪧 Ads, type: select, proxies: [🎯Direct, 🛑Reject]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🇭🇰HK, 🇯🇵JP, 🇸🇬SG, 🇺🇲US, 🇨🇳TW, 🇰🇷KR, 🇦🇺AU, 🇨🇦CA, 🇫🇷FR, 🇩🇪GE, 🇮🇳IN, 🇷🇺RU, 🇬🇧UK, 🇬🇷GR, 🇮🇱IL, 🇵🇰PK, 🇹🇷TR, ♻️ Auto, 🌐 select, 🎯Direct]}
   - {name: 🇭🇰HK, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "港|HK|hk|Hong Kong|HongKong|hongkong"}
@@ -136,20 +136,20 @@ rules:
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,youtube_domain,📹 YouTube
   - RULE-SET,google_domain,🍀 Google
+  - RULE-SET,google_ip,🍀 Google,no-resolve
   - RULE-SET,onedrive_domain,🐬 OneDrive
   - RULE-SET,microsoft_domain,🪟 Microsoft
-  - RULE-SET,tiktok_domain,🎵 TikTok
   - RULE-SET,speedtest_domain,✈️ Speedtest
+  - RULE-SET,tiktok_domain,🎵 TikTok
   - RULE-SET,telegram_domain,📲 Telegram
+  - RULE-SET,telegram_ip,📲 Telegram,no-resolve
   - RULE-SET,netflix_domain,🎥 NETFLIX
+  - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
   - RULE-SET,paypal_domain,💶 PayPal
+  - RULE-SET,ads_domain,🪧 Ads
   - RULE-SET,gfw_domain,🚀 Oversea
   - RULE-SET,geolocation-!cn,🚀 Oversea
-  - RULE-SET,ads_domain,🪧 Ads
   - RULE-SET,cn_domain,🎯Direct
-  - RULE-SET,google_ip,🍀 Google,no-resolve
-  - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
-  - RULE-SET,telegram_ip,📲 Telegram,no-resolve
   - RULE-SET,cn_ip,🎯Direct
   - MATCH,🐟 漏网之鱼
 
