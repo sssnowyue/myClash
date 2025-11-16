@@ -12,4 +12,5 @@ payload:
   - '+.1.1.1.1'
   - '+.8.8.8.8'
   - '+.browserleaks.com'
+  - '+.browserleaks.org'
   - '+.ipcheck.ing'
