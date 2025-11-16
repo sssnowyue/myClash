@@ -7,3 +7,7 @@ payload:
   - '+.sgm-static.jd.com'
   - '+.airchina.com.cn'
   - '+.ch.com'
+  - '+.dns.google'
+  - '+.loudflare-dns.com'
+  - '+.1.1.1.1'
+  - '+.8.8.8.8'
