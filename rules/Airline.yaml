@@ -11,3 +11,5 @@ payload:
   - '+.loudflare-dns.com'
   - '+.1.1.1.1'
   - '+.8.8.8.8'
+  - '+.browserleaks.com'
+  - '+.ipcheck.ing'
