@@ -1,0 +1,19 @@
+payload:
+  - DOMAIN-SUFFIX,dns.google
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,1.1.1.1
+  - DOMAIN-SUFFIX,8.8.8.8
+  - DOMAIN-KEYWORD,browserleaks
+  - DOMAIN-SUFFIX,ipcheck.ing
+  - DOMAIN-KEYWORD,missav
+  - DOMAIN-KEYWORD,jable
+  - DOMAIN-SUFFIX,mushroomtrack.com
+  - DOMAIN-SUFFIX,surrit.com
+  - DPROTOCOL-SUFFIX,nineyu.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-KEYWORD,agoda
+  - DOMAIN-KEYWORD,skyscanner
+  - DOMAIN-KEYWORD,booking
+  - DOMAIN-KEYWORD,trip
+  - DOMAIN-KEYWORD,tripadvisor
