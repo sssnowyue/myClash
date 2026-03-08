@@ -19,3 +19,5 @@ payload:
   - DOMAIN-KEYWORD,tripadvisor
   - DOMAIN-KEYWORD,hongxingyunmovie
   - DOMAIN-SUFFIX,bbc.co.uk
+  - DOMAIN-SUFFIX,finance.yahoo.com
+
