@@ -20,4 +20,5 @@ payload:
   - DOMAIN-KEYWORD,hongxingyunmovie
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,finance.yahoo.com
+  - DOMAIN-SUFFIX,leetcode.com
 
