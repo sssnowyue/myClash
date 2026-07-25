@@ -21,3 +21,39 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,ghcr.io
   - DOMAIN-KEYWORD,homebrew
+  # Docker 与 容器服务
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,quay.io
+  # Python (pip 下载源)
+  - DOMAIN-SUFFIX,python.org
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,pythonhosted.org
+  # Rust (Cargo 依赖)
+  - DOMAIN-SUFFIX,crates.io
+  - DOMAIN-SUFFIX,rust-lang.org
+  # Go 语言代理与包
+  - DOMAIN-SUFFIX,golang.org
+  - DOMAIN-SUFFIX,proxy.golang.org
+  # 开发者老家（Stack Overflow）
+  - DOMAIN-SUFFIX,stackoverflow.com
+  - DOMAIN-SUFFIX,stackexchange.com
+  # 技术文档与博客平台
+  - DOMAIN-SUFFIX,medium.com
+  - DOMAIN-SUFFIX,dev.to
+  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,gitbook.io
+  # VS Code 插件市场与同步
+  - DOMAIN-SUFFIX,visualstudio.com
+  - DOMAIN-SUFFIX,gallery.vsassets.io
+  # JetBrains
+  - DOMAIN-SUFFIX,jetbrains.com
+  # 团队协作与云服务
+  - DOMAIN-SUFFIX,slack.com
+  - DOMAIN-SUFFIX,notion.so
+  - DOMAIN-SUFFIX,vercel.com
+  - DOMAIN-SUFFIX,netlify.app
+  # CDN 静态资源加速
+  - DOMAIN-SUFFIX,cdnjs.cloudflare.com
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,unpkg.com
