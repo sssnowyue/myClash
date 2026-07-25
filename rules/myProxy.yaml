@@ -14,4 +14,10 @@ payload:
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,finance.yahoo.com
   - DOMAIN-SUFFIX,leetcode.com
-
+  - DOMAIN-SUFFIX,nodejs.org
+  - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-KEYWORD,homebrew
