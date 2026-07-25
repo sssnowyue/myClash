@@ -4,6 +4,7 @@ payload:
   - DOMAIN-SUFFIX,mushroomtrack.com
   - DOMAIN-SUFFIX,surrit.com
   - DOMAIN-SUFFIX,nineyu.com
+  - DOMAIN-SUFFIX,arena.ai
   - DOMAIN-KEYWORD,agoda
   - DOMAIN-KEYWORD,skyscanner
   - DOMAIN-KEYWORD,booking
