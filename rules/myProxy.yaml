@@ -69,19 +69,6 @@ payload:
   - DOMAIN-SUFFIX,arena.ai
   - DOMAIN-SUFFIX,chat.lmsys.org
 
-
-  # ========================================
-  # GitHub
-  # ========================================
-
-  - DOMAIN-SUFFIX,github.com
-  - DOMAIN-SUFFIX,github.io
-  - DOMAIN-SUFFIX,githubusercontent.com
-  - DOMAIN-SUFFIX,githubassets.com
-  - DOMAIN-SUFFIX,githubcopilot.com
-  - DOMAIN-SUFFIX,ghcr.io
-
-
   # ========================================
   # Git / Code Hosting
   # ========================================
@@ -90,7 +77,6 @@ payload:
   - DOMAIN-SUFFIX,gitlab.io
   - DOMAIN-SUFFIX,bitbucket.org
   - DOMAIN-SUFFIX,sourceforge.net
-
 
   # ========================================
   # JavaScript / Node.js
