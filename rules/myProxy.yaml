@@ -16,6 +16,7 @@ payload:
 
   - DOMAIN-KEYWORD,hongxingyunmovie
   - DOMAIN-KEYWORD,良心云
+  - DOMAIN-KEYWORD,liangxin
 
   # Cloudflare
   - DOMAIN-SUFFIX,cloudflare.com
