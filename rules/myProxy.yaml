@@ -247,3 +247,15 @@ payload:
 
   # Apache
   - DOMAIN-SUFFIX,apache.org
+
+  # ========================================
+  # Apple Podcasts
+  # ========================================
+  - DOMAIN-SUFFIX,podcasts.apple.com
+  - DOMAIN-SUFFIX,itunes.apple.com
+  - DOMAIN-SUFFIX,xp.apple.com
+  - DOMAIN-SUFFIX,setup.icloud.com
+  - DOMAIN-SUFFIX,amp-api.podcast.apple.com
+  - DOMAIN-SUFFIX,lookup-api.apple.com
+  - DOMAIN-SUFFIX,podcast.apple.com
+  - DOMAIN-SUFFIX,past.im
