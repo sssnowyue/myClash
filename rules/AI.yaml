@@ -1,4 +1,7 @@
 payload:
+  - DOMAIN,googletagmanager.com
+  - DOMAIN,ogads-pa.clients6.google.com
+  - DOMAIN,gemini.gstatic.com
   - DOMAIN,ai.azure.com
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
