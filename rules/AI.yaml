@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN,app-analytics-services.com
   - DOMAIN,googletagmanager.com
   - DOMAIN,ogads-pa.clients6.google.com
   - DOMAIN,gemini.gstatic.com
