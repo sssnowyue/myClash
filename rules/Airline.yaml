@@ -5,3 +5,7 @@ payload:
   - DOMAIN-SUFFIX,sgm-static.jd.com
   - DOMAIN-SUFFIX,airchina.com.cn
   - DOMAIN-SUFFIX,ch.com
+  - DOMAIN-SUFFIX,sichuanair.com   # 四川航空
+  - DOMAIN-SUFFIX,csair.com        # 南方航空
+  - DOMAIN-SUFFIX,xiamenair.com    # 厦门航空
+  - DOMAIN-SUFFIX,haplat.net       # ceair 的腾讯 EdgeOne WAF 拦截页资源域（blocksrc.haplat.net）
