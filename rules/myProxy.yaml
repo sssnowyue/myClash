@@ -19,7 +19,7 @@ payload:
   - DOMAIN-KEYWORD,liangxin
   - DOMAIN-KEYWORD,kdcloud
   - DOMAIN-KEYWORD,amytele
-  
+  - DOMAIN-KEYWORD,tagss
 
   # Cloudflare
   - DOMAIN-SUFFIX,cloudflare.com
