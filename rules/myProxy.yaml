@@ -20,6 +20,7 @@ payload:
   - DOMAIN-KEYWORD,kdcloud
   - DOMAIN-KEYWORD,amytele
   - DOMAIN-KEYWORD,tagss
+  - DOMAIN-SUFFIX,z4.ectrip.com
 
   # Cloudflare
   - DOMAIN-SUFFIX,cloudflare.com
