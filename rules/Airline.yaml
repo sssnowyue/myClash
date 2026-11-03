@@ -9,3 +9,4 @@ payload:
   - DOMAIN-SUFFIX,xiamenair.com # 厦门航空
   - DOMAIN-SUFFIX,haplat.net # ceair 的腾讯 EdgeOne WAF 拦截页资源域（blocksrc.haplat.net）
   - DOMAIN-SUFFIX,shenzhenair.com # 深圳航空
+  - DOMAIN-SUFFIX,airchina.com.cn # 中国国际航空
